@@ -14,7 +14,7 @@ module SmartListing
   end
 
   class Configuration
-    DEFAULT_PAGE_SIZES = [10, 20, 50, 100].freeze
+    DEFAULT_PAGE_SIZES = [5, 10, 20, 50].freeze
 
     DEFAULTS = {
       :global_options => {
